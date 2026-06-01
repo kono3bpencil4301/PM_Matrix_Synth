@@ -43,10 +43,10 @@ MatrixFM 是一个用 Python 编写的 FM/PM 音频合成器原型。它把 Oper
 ## 项目结构
 
 ```text
-PM_Martrix_Synth/
+PM_Matrix_Synth/
 ├── main.py          # 程序入口，渲染并写出 output.wav
 ├── config.py        # 合成参数、oscillator 列表、PM 矩阵、包络
-├── matrix_DX7.py    # PM 图构建、拓扑排序、核心渲染逻辑
+├── martix_dx7.py    # PM 图构建、拓扑排序、核心渲染逻辑
 ├── add_wave.py      # 基础波形和加法谐波生成
 ├── env.py           # 简化 ADSR 包络
 ├── check_mix.py     # 混音数值诊断脚本
