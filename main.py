@@ -1,6 +1,6 @@
 import numpy as np
 import config as cf
-import martix_dx7 as mdx7
+import matrix_dx7 as mdx7
 from scipy.io import wavfile
 
 
